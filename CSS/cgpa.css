@@ -1,0 +1,16 @@
+.input_data
+{
+	float: left;
+}
+table
+{
+	border: solid black 2px;
+	margin: auto;
+	text-align: center;
+}
+
+p
+{
+	border: solid black ; 
+	width: 50px;
+}

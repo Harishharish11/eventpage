@@ -1,0 +1,41 @@
+body {
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table
+{   
+	margin-top: 100px;
+	margin-left: 220px;
+	border-spacing: 10px;
+	width: 70%;
+}
+.title
+ {
+	margin-bottom: 10px;
+	padding: 5px 0;
+	font-size: 50px;
+	font-weight:bold;
+	text-align:center;
+	width: 100%;
+	color:#ffbb99;
+	border: solid black 2px;
+}	
+#btn 
+{
+	width: 100%;
+	height: 40px;
+	font-size: 30px;		
+}	
+input[type="button"] 
+{
+	background-color:grey;
+	color: black;
+	border: solid black 2px;
+	width:100%;
+}	
+input[type="text"] 
+{
+	background-color:white;
+	border: solid black 2px;
+}
