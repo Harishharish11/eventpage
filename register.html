@@ -3,6 +3,7 @@
     <head>
       <title>about</title>
            <link type="text/css" rel="stylesheet" href="CSS/index.css">
+           <script src="JS/home.js"></script>
 
     </head>
     <body background="https://image.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg">
@@ -16,8 +17,9 @@
 
      <center> <strong><h1>EVENT REGESTERATION </h1></strong> </center>
      <center>
-        <form  ACTION="about.html">
+        <form  name="register_form"  onsubmit="return validateForm()" method="post">
             <table BORDER="1" width="50%">
+
               <tr>
                 <td>Your name</td>
                 <td>
@@ -27,12 +29,13 @@
               <tr>
                 <td>Roll Number</td>
                 <td><INPUT TYPE="TEXT" NAME="roll" SIZE="25"></td> 
-           </tr>
+              </tr>
+
               <tr>
                 <td>Your E-mail address</td>
                 <td><INPUT TYPE="TEXT" NAME="email" SIZE="25"></td>
               </tr>
-            </tr>
+
             <tr>
               <td>Phone Number</td>
               <td><INPUT TYPE="number" NAME="phnnumber" SIZE="40"></td>
@@ -41,8 +44,8 @@
                 <td><label for="gender">Gender</label> </td>
                  <td>
                     <select id="cars" name="cars">
-                    <option value="volvo">MALE</option>
-                    <option value="saab">FEMALE</option>
+                    <option value="Male">MALE</option>
+                    <option value="FEMALE">FEMALE</option>
                 </select>
                  </td>  
             </tr>
@@ -55,13 +58,13 @@
               <tr>
                 <td>Department</td>
                 <td>
-                  <INPUT TYPE="TEXT" NAME="name" SIZE="25">
+                  <INPUT TYPE="TEXT" NAME="department" SIZE="25">
                 </td>
               </tr>
               <tr>
                 <td>DOB</td>
                 <td>
-                  <INPUT TYPE="date" NAME="name" SIZE="25">
+                  <INPUT TYPE="date" NAME="dob" SIZE="25">
                 </td>
               </tr>
               <tr>
@@ -76,12 +79,16 @@
               </tr>
               <tr>
                 <td><label for="event1">Project Presentation</label><br></td>
-                <td><input type="checkbox" id="event1" name="event1" value="event1"></td>                
+                <td><input type="checkbox" id="event2" name="event1" value="event1"></td>                
               </tr>
               <tr>
                 <td><label for="event1">Idea Presentation</label><br></td>
-                <td><input type="checkbox" id="event1" name="event1" value="event1"></td>                
+                <td><input type="checkbox" id="event3" name="event1" value="event1"></td>                
               </tr>
+
+
+
+
 
             </table>
              <P><INPUT TYPE="SUBMIT" VALUE="Submit" NAME="B1"></P>

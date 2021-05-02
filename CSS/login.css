@@ -1,0 +1,45 @@
+h1,h2
+{
+	text-align: center;
+}
+.container
+{
+	margin: auto;
+	border: double;
+	border-radius: 2%;
+	height: 20%;
+	width: 50%
+}
+.cont_head
+{
+	margin: 0% 1% 1% 1%;
+	background-color: grey;
+}
+.cont_body
+{
+	
+	margin:auto;
+	margin-bottom: 2%;
+}
+button
+{
+	height: 20px;
+	width: 30px;
+	margin: 10px
+}
+table
+{
+	margin: auto;
+}
+button
+{
+	margin: auto;
+}
+
+
+
+
+git remote add origin https://github.com/Harishharish11/new_repo.git
+
+
+git remote add origin https://github.com/Harishharish11/exp9.git
